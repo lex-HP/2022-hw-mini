@@ -1,4 +1,4 @@
-#Hardware miniproject
+# Hardware miniproject
 * Alex Hureaux-Perron (alexchp@bu.edu)
 * Wenyu (Jessica) Hu (wjhu@bu.edu)
 
