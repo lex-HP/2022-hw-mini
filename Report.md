@@ -8,5 +8,6 @@ fade--;
 ```
 became 
 ```sh
-fade=fade-50;
+fade = fade - 50;
 ```
+Therefore the LED decreases 50 times faster 
