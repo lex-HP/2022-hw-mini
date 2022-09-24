@@ -31,13 +31,13 @@ void on_pwm_wrap() {
     pwm_clear_irq(pwm_gpio_to_slice_num(PICO_DEFAULT_LED_PIN));
 
     if (going_up) {
-        ++fade;
+        fade++;
         if (fade > MAX_LED_BRIGHTNESS) {
             fade = MAX_LED_BRIGHTNESS;
             going_up = false;
         }
     } else {
-        --fade;
+        fade = fade - 50;
         if (fade < MIN_LED_BRIGHTNESS) {
             fade = MIN_LED_BRIGHTNESS;
             going_up = true;
