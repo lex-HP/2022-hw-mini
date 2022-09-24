@@ -13,4 +13,4 @@ fade = fade - 50;
 ```
 Therefore the LED dims 50 times faster. Which to the human eye, seems to gradually light up and suddenly switch off.
 
-The original and altered version are running side by side in this video ([Miniproject.mp4](https://github.com/lex-HP/2022-hw-mini/blob/main/Miniproject.mp4))
+The original and altered version are running side by side in this video: [MiniProject.mp4] (https://github.com/lex-HP/2022-hw-mini/blob/main/MiniProject.mp4)
